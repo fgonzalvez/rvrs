@@ -9,23 +9,23 @@ Do you want to play classic games but can't decide?
 4. Select a leter [A-Z]
 5. Push Crtl + Shift and paste the code
 
-	function searchGame() {
+		function searchGame() {
 
-		var numberSelected = Math.floor((Math.random() * videoGameList.length) + 1)
+			var numberSelected = Math.floor((Math.random() * videoGameList.length) + 1)
 
-		var gameSelected = videoGameList[numberSelected]
+			var gameSelected = videoGameList[numberSelected]
 
-		gameSelected.scrollIntoView( true )
+			gameSelected.scrollIntoView( true )
 
-		gameSelected.style.backgroundColor="red"
+			gameSelected.style.backgroundColor="red"
 
-	}
+		}
 
-	var rowInserted = $('div table').insertRow()
+		var rowInserted = $('div table').insertRow()
 
-	rowInserted.innerHTML = "<button onclick='searchGame()'> Get Random Game </button>"
+		rowInserted.innerHTML = "<button onclick='searchGame()'> Get Random Game </button>"
 
-	var videoGameList = $(".games").getElementsByTagName('a')
+		var videoGameList = $(".games").getElementsByTagName('a')
 
 
 6. Push Intro
