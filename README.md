@@ -33,6 +33,6 @@ var rowInserted = document.getElementsByTagName('table')[9].insertRow();
 rowInserted.innerHTML = "<button onclick='searchGame()'> Get Random Game </button>";
 var videoGameList = document.getElementsByClassName('games')[0].getElementsByTagName('a');
 ```
-6. Push Intro
+And Push Intro
 
 A button will appear and you just have to click it.
