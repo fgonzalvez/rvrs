@@ -14,6 +14,7 @@ javascript:(function(){videoGameList=document.getElementsByClassName("games")[0]
 #### Put a button on page
 
 (Example: Chrome)
+
 1. Open Browser 
 2. Enter http://www.rom-world.com/
 3. Select a console platform in the left bar
