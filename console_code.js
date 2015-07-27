@@ -5,6 +5,6 @@ function searchGame() {
   gameSelected.style.backgroundColor = "red";
 }
 
-var rowInserted = $('div table').insertRow();
+var rowInserted = document.getElementsByTagName('table')[9].insertRow();
 rowInserted.innerHTML = "<button onclick='searchGame()'> Get Random Game </button>";
-var videoGameList = $(".games").getElementsByTagName('a');
+var videoGameList = document.getElementsByClassName('games')[0].getElementsByTagName('a');
