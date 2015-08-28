@@ -1,4 +1,1 @@
-videoGameList = document.getElementsByClassName('games')[0].getElementsByTagName('a');
-gameSelected = videoGameList[ Math.floor((Math.random() * videoGameList.length) + 1)];
-gameSelected.scrollIntoView(true);
-gameSelected.style.backgroundColor = "red";
+javascript:(function(){videoGameList=document.getElementsByClassName("games")[0].getElementsByTagName("a"),numberSelected=Math.floor(Math.random()*videoGameList.length+1),gameSelected=videoGameList[numberSelected],gameSelected.scrollIntoView(!0),gameSelected.style.backgroundColor="red"})();
